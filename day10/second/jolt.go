@@ -1,3 +1,8 @@
+// This solution has an exponential running time because it has to recursivily traverse all possible paths
+// Which is fine if the number of adapters are low, like in the given examples (see the unit tests)
+// However, the actual puzzle has almost 100 adapters. The puzzle description already hinted at potentially
+// trillions possible combinations. So having an exponential solution is impossible for this.
+// See the DAG solution for the actual best solution which runs in lineair time.
 package main
 
 import (
