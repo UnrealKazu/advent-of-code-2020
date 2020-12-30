@@ -1,3 +1,5 @@
+// Because the second puzzle was a small extention on the first, I've continued on the brute-force solution for that puzzle
+// More or less the only thing this does extra is keep track of all possible fields for ecah field, and reduce them by cross-referencing
 package main
 
 import (
